@@ -15,6 +15,12 @@ rgb(148, 0, 211) // returns 9400D3
 
 function rgb(r, g, b){
     let hexValues = {
+        1: 1,
+        2: 2,
+        3: 3,
+        4: 4,
+        5: 5,
+        6: 6
         A: 10,
         B: 11,
         C: 12,
