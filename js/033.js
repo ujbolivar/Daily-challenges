@@ -14,8 +14,17 @@ rgb(148, 0, 211) // returns 9400D3
 */
 
 function rgb(r, g, b){
-    // complete this function  
-  }
+    // complete this function
+
+    let answer
+    
+    
+    if (answer.length === 6) {
+        return answer
+    }
+  
+
+}
 
 
 console.log(rgb(255, 255, 255))
