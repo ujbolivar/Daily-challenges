@@ -14,15 +14,33 @@ rgb(148, 0, 211) // returns 9400D3
 */
 
 function rgb(r, g, b){
-    // complete this function
-
-    let answer
-    
-    
-    if (answer.length === 6) {
-        return answer
+    let hexValues = {
+        A: 10,
+        B: 11,
+        C: 12,
+        D: 13,
+        E: 14,
+        F: 15
     }
-  
+    let rgbArray = [r, g, b]
+    
+    let answer = "#";
+
+    function getKeyByValue(object, value) {
+        return Object.keys(object).find(key => object[key] === value);
+      }
+
+      let firstDigit;
+      let secondDigit;
+
+    rgbArray.map(value => {
+        let result = value / 16;
+        firstDigit = result.toString().substr(0, 2);
+        secondDigit = (Number('0.' + result.toString().substr(3, 2)) * 16).toString().substr(0, 2);
+    })
+    
+        return answer
+    
 
 }
 
