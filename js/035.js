@@ -16,10 +16,10 @@ Your function should take an amount to change and an array of unique denominatio
 
   */
 
-  console.log("lala")
-
 var countChange = function (money, coins) {
-    // your implementation here
+    let count = 0;
+
+    
 }
 
 console.log(countChange(4, [1, 2])) // => 3
