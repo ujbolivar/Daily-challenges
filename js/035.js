@@ -14,6 +14,7 @@ Your function should take an amount to change and an array of unique denominatio
   countChange(10, [5,2,3]) // => 4
   countChange(11, [5,7]) //  => 0
 
+  adding something right here
   */
 
 var countChange = function (money, coins) {
