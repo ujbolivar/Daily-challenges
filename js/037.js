@@ -6,7 +6,7 @@ function overTheRoad(address, n){
     
     // function to fill the road arrays with houses
     
-    const createRoad = (n) => {
+    const fillRoad = (n) => {
         for (let i = 1; i <= n; i++) {
             roadA.push(i);
             roadB.unshift(i);
@@ -15,14 +15,16 @@ function overTheRoad(address, n){
     
     //creating the houses on the roads
     
-    createRoad(n);
+    fillRoad(n);
     
     console.log(roadA);
     console.log(roadB);
     
+    // Here we create the algorithm that will find the house we need.
+    
     let answer
-
-    for (let i = 1; i < address; i++) {
+    
+    for (let i = 0; i < address; i++) {
         if (i === address) {
             answer = roadB.toString().charAt(i)
         }
