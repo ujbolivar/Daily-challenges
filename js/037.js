@@ -22,14 +22,13 @@ function overTheRoad(address, n){
     
     // Here we create the algorithm that will find the house we need.
     
-    let answer
+    let answer = 0;
     
-    for (let i = 0; i < address; i++) {
+    for (let i = 1; i < address; i++) {
         if (i === address) {
-            answer = roadB.toString().charAt(i)
+           return answer = roadB.toString().charAt(i)
         }
     }
-    return answer;
 }
 
-console.log(overTheRoad(1, 3)) // should yield the right answer!
+console.log(overTheRoad(1, 3)) // should yield the right answer
