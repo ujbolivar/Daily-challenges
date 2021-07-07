@@ -31,4 +31,4 @@ function overTheRoad(address, n){
     }
 }
 
-console.log(overTheRoad(1, 3)) // should yield the right answer
+console.log(overTheRoad(1, 3)) // should yield the right answers!
